@@ -1,0 +1,33 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+.left-sidebar{
+    left:0;
+    height:100%;
+    width:25%;
+    background-color:rgb(243, 160, 6);
+    position:absolute;
+}
+.right-sidebar{
+   right:0;
+   position:absolute;
+   width:75%;
+   height:100%;
+   background:rgb(126, 129, 126);
+   text-align: center;
+}
+.inside{
+    margin-top: -19px;
+    margin-left: 359px;
+}
+table, th, td {
+    border: 1px solid;
+    border-color: aliceblue;
+    border-style: groove;
+  }
+  th{
+    width: 200px;
+    color: white;
+    background-color: red;
+  }
